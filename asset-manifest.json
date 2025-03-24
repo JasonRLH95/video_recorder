@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/video_recorder/static/css/main.d69c35f4.css",
+    "main.js": "/video_recorder/static/js/main.a3443574.js",
+    "static/js/453.4311da70.chunk.js": "/video_recorder/static/js/453.4311da70.chunk.js",
+    "static/media/spinner_transparent.gif": "/video_recorder/static/media/spinner_transparent.90672f1deffccbcdf4f1.gif",
+    "index.html": "/video_recorder/index.html",
+    "main.d69c35f4.css.map": "/video_recorder/static/css/main.d69c35f4.css.map",
+    "main.a3443574.js.map": "/video_recorder/static/js/main.a3443574.js.map",
+    "453.4311da70.chunk.js.map": "/video_recorder/static/js/453.4311da70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d69c35f4.css",
+    "static/js/main.a3443574.js"
+  ]
+}
