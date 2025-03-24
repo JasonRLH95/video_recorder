@@ -1,13 +1,13 @@
 
 .simulatedUpload_component{
-    margin: 20px auto 0;
+    margin: 20px auto 100px;
 }
 .uploadProgress{
     font-weight: bold;
     font-size: 24px;
 }
 .uploadDiv{
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     width: 600px;
     height: 50px;
     position: relative;

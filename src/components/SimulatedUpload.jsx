@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 import '../style/simulatedUpload.css';
 
 export default function SimulatedUpload({ simulationFlag, setSimulationFlag, uploadVideo }) {
@@ -6,6 +6,13 @@ export default function SimulatedUpload({ simulationFlag, setSimulationFlag, upl
     //percentage of the uploading progress
     const [progress,setProgress] = useState(0);
 
+    // smoothly scroll down when simulation starts for better user experience
+    useLayoutEffect(()=>{
+        window.scrollTo({
+            top: 100,
+            behavior: "smooth",
+        });
+    },[])
     // render the uploading simulation when click on upload button to handle the movement of the bar and the progress
     useEffect(()=>{
         if(simulationFlag){

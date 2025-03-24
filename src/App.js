@@ -97,8 +97,11 @@ function App() {
       setTimeout(() => {
         document.querySelector(".download_link").style.top = "0";
         setTimeout(() => {
-          document.querySelector(".controlers_btn_upload").style.opacity = "100%";
-        }, 4500);
+          document.querySelector(".controlers_btn_upload").style.display = "block";
+          setTimeout(() => {
+            document.querySelector(".controlers_btn_upload").style.opacity = "100%";
+          }, 100);
+        }, 3400);
       }, 1500);
   };
 
