@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  min-width: 700px;
+}
+.mainHeader{
+  margin: 40px auto 0;
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 45px;
+  text-shadow: 3px 3px 6px grey;
+  color:cornflowerblue;
+  border-bottom: 1px solid grey;
+  background-color: whitesmoke;
+  width: 40%;
+}
+.video_container{
+  margin: 50px auto 0;
+  width: 80%;
+  height: 65vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.preview_initialHeaders{
+  text-align: center;
+  z-index: 100;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  opacity: 80%;
+}
+.preview_initialHeader_1{
+  font-size: clamp(2.5rem, 8vw, 4rem);
+}
+.preview_initialHeader_2{
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+.preview_initialHeader_4{
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}

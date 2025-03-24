@@ -1,0 +1,39 @@
+
+.simulatedUpload_component{
+    margin: 20px auto 0;
+}
+.uploadProgress{
+    font-weight: bold;
+    font-size: 24px;
+}
+.uploadDiv{
+    margin: 20px auto 0;
+    width: 600px;
+    height: 50px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.uploadBar, .uploadFill{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.uploadFill{
+    background-color: rgb(30, 195, 30);
+    left: -600px;
+    z-index: 20;
+}
+.uploadBar{
+    left: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uploadBar h2{
+    z-index: 30;
+}
